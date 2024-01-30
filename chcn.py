@@ -5,8 +5,8 @@ from io import BytesIO
 
 
 class CHConnector:
-    def __init__(self, url: str, port=8123, auth=('user', 'pass')):
-        self._url = url + ":" + str(port)
+    def __init__(self, url: str, port=8123, auth=("user", "pass")):
+        self._url = url
 
         self._user = auth[0]
         self._pass = auth[1]
